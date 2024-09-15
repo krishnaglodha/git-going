@@ -23,24 +23,24 @@ format:
 ## Introduction to Git
 
 Git is a **Version Control System (VCS)** designed to make it easier to have multiple versions of a code base,
-sometimes across multiple developers or teams
+sometimes across multiple developers or teams.
 
-### Why bother learning it ? 
+### Why bother learning it? 
 
 ::: {.incremental}
 - 😌 To sleep in peace 
 - 😭 To not start crying while deploying
-- 🤸🏻 To not care about dependent on a machine
+- 🤸🏻 To not be dependent on a machine
 :::
 
 
-## What is Version Control System
+## What is Version Control System?
 
-**VCS** Allows you to centrally create *Repository* to store your code so that many people ( You can define Authentication ) can access the code and make changes to it simultaneously. 
+**VCS** allows you to centrally create a *Repository* to store your code so that many people (you can define authentication) can access the code and make changes to it simultaneously. 
 
-### But If many people make changes simultaneously, won't get it confusing for code ? 
+### But if many people make changes simultaneously, won’t it get confusing for the code?
 
-No, because GIT Systems uses various functions such as Branches, Commits, Pull Requests, Merges, etc. to manage the code. 
+No, because Git systems use various functions such as branches, commits, pull requests, merges, etc. to manage the code. 
 
 
 # Introduction to GitHub  {.center}
@@ -53,79 +53,79 @@ GitHub is a web-based platform that utilizes Git for version control, enabling d
 
 ## Functionalities of GitHub
 
-Apart from the core **GIT** functionalities, GitHub allows us to 
+Apart from the core **Git** functionalities, GitHub allows us to:
 
 ::: {.incremental}
-- Create Organisation Accounts
-- Make Private Repositories
+- Create organization accounts
+- Make private repositories
 - Host websites directly<sup>*</sup>
-- Integrate CI/CD actions for better deployment experience
-- Use GitHub Co-pilot as coding asistant 
+- Integrate CI/CD actions for a better deployment experience
+- Use GitHub Co-pilot as a coding assistant 
 :::
 
 ## Alternatives to GitHub
 
 - GitLab
 - Beanstalk
-- AWS CodeCommit , etc. 
+- AWS CodeCommit, etc. 
 
-# It's a Show time 🕺🏼 💃🏼  {.center}
+# It's Show Time 🕺🏼 💃🏼 {.center}
 
 ## Creating your own repo {.scrollable}
 
-1. Go to [GitHub.com](https://github.com/) and Sign Up
-2. Click on *New* button to create repo
+1. Go to [GitHub.com](https://github.com/) and sign up
+2. Click on the *New* button to create a repo
 ![New Repo](./assets/new-repo.png "a title")
-3. Create New Repo by filling out details
+3. Create a new repo by filling out the details
 ![New Repo](./assets/repo-info.png "a title")
-4. You can now clone repository in your local computer using *Git* commands 
+4. You can now clone the repository to your local computer using *Git* commands 
    
 ```bash
 git clone https://github.com/krishnaglodha/About-me
 ```
 ![clone](./assets/clone.png "a title")
-5. You can now make changes to the exisiting files or add new files. 
+5. You can now make changes to the existing files or add new files. 
 ![change](./assets/change.png "a title")
-If you are using IDE like *VS Code,Pycharm,etc.*, It will automatically detect that you have made change
-6. Commit and push change to central Repo
-You can do that from IDE or you can also do that via terminal
+If you are using an IDE like *VS Code, Pycharm, etc.*, it will automatically detect that you have made a change.
+6. Commit and push the change to the central repo.
+You can do that from the IDE or via the terminal.
 
 ```bash
-# Add file in which change has been made
-git add . # In this case I just added all files
+# Add the file in which the change has been made
+git add . # In this case, I just added all files
 
-# Commit to repo by putting some message 
+# Commit to the repo by adding a message 
 git commit -m 'Made change in readme'
 
-# Push to the Repo
+# Push to the repo
 git push 
 ```
 
 ![pushed](./assets/pushed.png "a title")
 
-## Contrubuting to other's repo {.scrollable}
+## Contributing to others' repos {.scrollable}
 
-**Open Source** is a big part of software development world, which means software developers like us contribute to existing projects to fix bugs, and add new feature. 
+**Open Source** is a big part of the software development world, which means software developers like us contribute to existing projects to fix bugs and add new features. 
 
 1. Let's fork a repo available at [https://github.com/spatialops/who-attended-presentation](https://github.com/spatialops/who-attended-presentation)
 ![fork](./assets/fork.png "a title")
 
-*Forking* simply means copying all the content of repo from someone else's account to out account. 
+*Forking* simply means copying all the content of a repo from someone else's account to our account. 
 ![forked](./assets/forked.png "a title")
 
 2. Make changes as you want and commit to the repo. 
 ![addedname](./assets/addedname.png "a title")
 But these changes are only part of the repo that you have in your account, not the original one.
-3. To add these changes to the original repo, you will need to raise *Pull Request* (PR)
+3. To add these changes to the original repo, you will need to raise a *Pull Request* (PR)
 ![pr](./assets/pr.png "a title")
 ![prmade](./assets/prmade.png "a title")
-4. Once PR is raised, owner of original repo can work on your PR by either accepting, rejecting, asking for changes, etc.
+4. Once PR is raised, the owner of the original repo can work on your PR by either accepting, rejecting, or asking for changes, etc.
 ![checkpr](./assets/checkpr.png "a title")
-5. Once PR is merged, it will be added to main repo
+5. Once PR is merged, it will be added to the main repo
 ![prmerge](./assets/prmerge.png "a title")
 
 
-## Any Questions ?
+## Any Questions ? {.center}
 
 - https://www.linkedin.com/in/krishnaglodha/
 - krishna@rottengrapes.tech
